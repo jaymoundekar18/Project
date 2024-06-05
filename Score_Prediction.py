@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
-import pickle
+#import pickle
 import joblib 
 from joblib import Parallel, delayed
 
@@ -18,7 +18,7 @@ st.markdown("Know your score based on study hours!")
 hours = st.number_input('Enter your average daily study hours')
 
 #new_model = joblib.load("score_prediction.pkl")
-new_model = pickle.load("score_prediction.pkl") 
+new_model = joblib.load("score_prediction.pkl") 
 
 button = st.button("Predict")
 
