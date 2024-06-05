@@ -17,7 +17,7 @@ st.sidebar.dataframe(df)
 st.markdown("Know your score based on study hours!")
 hours = st.number_input('Enter your average daily study hours')
 
-new_model = joblib.load("D:\code\Tensorflow_prac\Learning\score_prediction.pkl")
+new_model = joblib.load("score_prediction.pkl")
 
 button = st.button("Predict")
 
