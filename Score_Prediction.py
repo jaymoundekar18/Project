@@ -15,7 +15,7 @@ st.sidebar.write('Predicition is based on below dataset')
 st.sidebar.dataframe(df)
 
 st.markdown("Know your score based on study hours!")
-hours = st.number_input('Enter your average daily study hours')
+hours = st.number_input('Enter your daily average study hours')
 
 #new_model = joblib.load("score_prediction.pkl")
 new_model = joblib.load("score_prediction.pkl") 
