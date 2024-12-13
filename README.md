@@ -5,3 +5,5 @@
 - [Predicting the Optimum Number of Cluster in the "Iris DataSet"](https://jaymoundekar18.github.io/JayMoundekar/project_video.html#cluster)
   
 - [Student Score Prediction](https://jaymoundekar18.github.io/JayMoundekar/project_video.html#score)
+
+- [DeepFace Face Detection](DeepFaceDetection.md)
